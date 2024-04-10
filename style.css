@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 62.5%;
+    font-family: 'Press Start 2P', sans-serif;
+    background-color: #222;
+    /* background-color: #60b347; */
+}
+
+header {
+    position: relative;
+    height: 35vh;
+    border-bottom: 7px solid #eee;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 2rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    padding: 8px 20px;
+    font-size: 0.85rem;
+    font-family: 'Press Start 2P', sans-serif;
+    cursor: pointer;;
+}
+
+header .again {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+header .between{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    color: #fff;
+}
+
+.number {
+    background-color: #fff ;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+.left input {
+    border-radius: 10px solid #fff;
+}
+
+.Guess {
+    background: transparent;
+    outline-width: none;
+    border: 2px solid #fff;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    width: 200px;
+    height: 70px;
+    padding: 10px;
+}
+
+.check {
+    position: absolute;
+    /* top: 70p; */
+    bottom: -70%;
+    left: 18%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    color: #fff;
+}
+
+.message {
+    /* color: #fff; */
+    font-size: 0.85rem;
+}
+
+.label-score {
+    margin-top: 40px;
+    /* color: #fff; */
+    font-size: 0.85rem;
+}
+
+.high-score {
+    margin-top: 15px;
+    font-size: 0.85rem;
+}
